@@ -1,0 +1,92 @@
+.background{
+  
+}
+main{
+  background-color: #1F60C2
+}
+body{
+  font-family: 'KoHo', sans-serif;
+}
+
+.container{
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container_welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFFF;
+}
+.container_welcome h2{
+  font-size: 50px;
+}
+
+.container_login{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #FFFF;
+  background-color: #1F60C2
+}
+
+.container_login h2{
+  font-size: 50px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+fieldset{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input{
+  border: 0 none;
+  height: 40px;
+  border-radius: 8px;
+}
+.mail_box{
+
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+}
+
+
+.pass_box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.enter_box{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  background-color: #FFFF;
+  border: #FFFF;
+  color: black;
+  border-radius: 4px;
+  padding: 20px 60px;
+  font-family: 'KoHo', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
