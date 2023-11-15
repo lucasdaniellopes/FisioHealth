@@ -1,103 +1,126 @@
-
-main{
- 
-}
-body{
-  font-family: 'KoHo', sans-serif;
-  background: linear-gradient(to right,#FFFF 40%, #1F60C2 10px ,#1F60C2 70%);
+body {
+  font-family: "KoHo", sans-serif;
+  background: linear-gradient(to right, #ffff 40%, #1f60c2 10px, #1f60c2 70%);
 }
 
-.container{
+.container {
   width: 90vw;
   height: 100vh;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
-.container_welcome{
+.container_welcome {
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-bottom: 10%;
   gap: 30px;
-  
 }
-.container_welcome h2{
+.container_welcome h2 {
   font-size: 50px;
 }
 
-.container_login{
+.container_login {
   width: 70%;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  color: #FFFF;
-
+  color: #ffff;
 }
 
-.container_login h2{
+.container_login h2 {
   font-size: 50px;
 }
 
-form{
+form {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-fieldset{
+fieldset {
   width: 70%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-input{
-  border: 0 none;
+input {
+  outline-color: #1f60c2;
+  border: 1px solid transparent;
   height: 40px;
   border-radius: 8px;
 }
-.mail_box{
-
-  display: flex;
-  flex-direction: column;
-  
-  gap: 10px;
-}
-
-
-.pass_box{
+.mail_box {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  transition: 0.2s;
+}
+.mail_box:hover,
+.mail_box label:hover,
+.mail_box input:hover {
+  font-weight: 700;
 }
 
-.enter_box{
+.pass_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.pass_box:hover,
+.pass_box label:hover,
+.pass_box input:hover {
+  font-weight: 700;
+}
+
+.forget_box {
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.forget_box:hover {
+  font-weight: 700;
+}
+
+.enter_box {
   display: flex;
   justify-content: center;
 }
 
-article{
+article {
   text-align: center;
-
 }
 
-article p{
+article p {
   margin-top: 20px;
   font-size: 20px;
 }
 
-button{
-  background-color: #FFFF;
-  border: #FFFF;
-  color: black;
+button {
+  background-color: #ffff;
+  border: 2px solid transparent;
+  color: #1f60c2;
   border-radius: 4px;
   padding: 20px 60px;
-  font-family: 'KoHo', sans-serif;
+  font-family: "KoHo", sans-serif;
   font-weight: 700;
   font-size: 20px;
+  cursor: pointer;
 }
 
+button:hover {
+  border-color: #ffff;
+  background-color: #1f60c2;
+  color: #ffff;
+  transition: 0.3s;
+}
