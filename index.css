@@ -1,11 +1,10 @@
-.background{
-  
-}
+
 main{
-  background-color: #1F60C2
+ 
 }
 body{
   font-family: 'KoHo', sans-serif;
+  background: linear-gradient(to right,#FFFF 40%, #1F60C2 10px ,#1F60C2 70%);
 }
 
 .container{
@@ -20,7 +19,9 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #FFFF;
+  margin-bottom: 10%;
+  gap: 30px;
+  
 }
 .container_welcome h2{
   font-size: 50px;
@@ -34,7 +35,7 @@ body{
   align-items: center;
   gap: 30px;
   color: #FFFF;
-  background-color: #1F60C2
+
 }
 
 .container_login h2{
@@ -77,6 +78,16 @@ input{
 .enter_box{
   display: flex;
   justify-content: center;
+}
+
+article{
+  text-align: center;
+
+}
+
+article p{
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 button{
