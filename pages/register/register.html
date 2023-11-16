@@ -37,13 +37,26 @@
           </article>
         </section>
         <section class="container_register">
+          <div class="back_box">
+            <button>
+              <a href="/index.html"
+                ><img src="/assets/back_arrow_icon_131563.svg" alt=""
+              /></a>
+            </button>
+          </div>
           <article>
             <h2>Seja Bem Vindo!</h2>
           </article>
           <form>
             <fieldset>
               <div class="typeOfUser_box">
-                <input type="radio" name="typeOfUser" id="user" value="user" />
+                <input
+                  type="radio"
+                  name="typeOfUser"
+                  id="user"
+                  value="user"
+                  checked
+                />
                 <label for="user">Usuário</label>
 
                 <input
@@ -132,7 +145,7 @@
                   </select>
                 </div>
               </div>
-              <div class="profissionalInfo_box">
+              <div class="profissionalInfo_box hidden">
                 <div class="graduation_box">
                   <label for="graduation">Qual a sua graduação?</label>
                   <input
