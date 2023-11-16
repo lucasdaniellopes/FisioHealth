@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/pages/register/register.css" />
+    <link rel="stylesheet" href="/reset.css" />
+
+    <script defer src="/pages/register/register.js"></script>
+
+    <title>FisioHealth</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="container_welcome">
+          <figure>
+            <img
+              src="/assets/Logo_FisioHelth-removebg-preview 1.svg"
+              alt="Logo"
+            />
+          </figure>
+
+          <article>
+            <h2>Bem vindo ao FisioHealth</h2>
+            <p>
+              Construa seu futuro saudável com exercícios personalizados para
+              você.
+            </p>
+          </article>
+        </section>
+        <section class="container_register">
+          <article>
+            <h2>Seja Bem Vindo!</h2>
+          </article>
+          <form>
+            <fieldset>
+              <div class="typeOfUser_box">
+                <input type="radio" name="typeOfUser" id="user" value="user" />
+                <label for="user">Usuário</label>
+
+                <input
+                  type="radio"
+                  name="typeOfUser"
+                  id="professional"
+                  value="professional"
+                />
+                <label for="professional">Profissional</label>
+              </div>
+
+              <div class="name_box">
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Digite seu nome completo"
+                />
+              </div>
+
+              <div class="mail_box">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Digite seu email"
+                />
+              </div>
+
+              <div class="born_cpf_city_state_box">
+                <div class="born_box">
+                  <label for="born">Data de Nascimento</label>
+                  <input type="date" name="born" id="born" />
+                </div>
+
+                <div class="cpf_box">
+                  <label for="cpf">CPF</label>
+                  <input
+                    type="number"
+                    name="cpf"
+                    id="cpf"
+                    placeholder="XXX.XXX.XXX-XX"
+                  />
+                </div>
+
+                <div class="city_box">
+                  <label for="city">Cidade</label>
+                  <input
+                    type="city"
+                    name="city"
+                    id="city"
+                    placeholder="Nome da sua cidade"
+                  />
+                </div>
+
+                <div class="state_box">
+                  <label for="states">Estado: </label>
+                  <select name="states" id="states">
+                    <option value="Acre">AC</option>
+                    <option value="Alagoas">Al</option>
+                    <option value="Amapa">AP</option>
+                    <option value="Amazonas">AM</option>
+                    <option value="Bahia">BA</option>
+                    <option value="Ceara">CE</option>
+                    <option value="DistritoFederal">DF</option>
+                    <option value="EspiritoSanto">ES</option>
+                    <option value="Goias">GO</option>
+                    <option value="Maranhao">MA</option>
+                    <option value="MatoGrosso">MT</option>
+                    <option value="MatoGrossoDoSul">MS</option>
+                    <option value="MinasGerais">MG</option>
+                    <option value="Para">PA</option>
+                    <option value="Paraiba">PB</option>
+                    <option value="Parana">PR</option>
+                    <option value="Pernambuco">PE</option>
+                    <option value="Piaui">PI</option>
+                    <option value="RioDeJaneiro">RJ</option>
+                    <option value="RioGrandeDoNorte">RN</option>
+                    <option value="RioGrandeDoSul">RS</option>
+                    <option value="Rondonia">RO</option>
+                    <option value="Roraima">RR</option>
+                    <option value="SantaCatarina">SC</option>
+                    <option value="Sergipe">SE</option>
+                  </select>
+                </div>
+              </div>
+              <div class="profissionalInfo_box">
+                <div class="graduation_box">
+                  <label for="graduation">Qual a sua graduação?</label>
+                  <input
+                    type="graduation"
+                    name="graduation"
+                    id="graduation"
+                    placeholder="Nome do curso"
+                  />
+                </div>
+
+                <div class="college_box">
+                  <label for="college"
+                    >Qual foi a instituição de formação?</label
+                  >
+                  <input
+                    type="text"
+                    name="college"
+                    id="college"
+                    placeholder="Nome da instituição de ensino"
+                  />
+                </div>
+
+                <div class="specialty_box">
+                  <label for="specialty"
+                    >Qual especialidade você irá atender?</label
+                  >
+                  <input
+                    type="text"
+                    name="specialty"
+                    id="specialty"
+                    placeholder="Nome da sua especialidade"
+                  />
+                </div>
+              </div>
+
+              <div class="pass_box">
+                <label for="pass">Senha</label>
+                <input type="password" name="pass" id="pass" />
+              </div>
+
+              <div class="register_box">
+                <button type="submit">Cadastrar</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

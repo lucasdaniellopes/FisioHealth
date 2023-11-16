@@ -1,0 +1,212 @@
+.hidden {
+  display: none;
+}
+body {
+  font-family: "KoHo", sans-serif;
+  background: linear-gradient(to right, #ffff 40%, #1f60c2 10px, #1f60c2 70%);
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_welcome {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+  gap: 30px;
+}
+.container_welcome h2 {
+  font-size: 50px;
+}
+
+.container_register {
+  width: 70%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #ffff;
+}
+
+.container_register h2 {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+fieldset {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  font-family: "KoHo", sans-serif;
+  padding-left: 10px;
+  outline-color: #1f60c2;
+  border: 1px solid transparent;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.born_cpf_city_state_box select {
+  font-family: "KoHo", sans-serif;
+  padding-left: 10px;
+  outline-color: #1f60c2;
+  border: 1px solid transparent;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.born_cpf_city_state_box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.name_box,
+.mail_box,
+.pass_box,
+.born_box,
+.cpf_box,
+.city_box,
+.state_box,
+.graduation_box,
+.college_box,
+.specialty_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.name_box:hover,
+.name_box label:hover,
+.namel_box input:hover {
+  font-weight: 700;
+}
+
+.mail_box:hover,
+.mail_box label:hover,
+.mail_box input:hover {
+  font-weight: 700;
+}
+
+.born_box,
+.cpf_box,
+.city_box,
+.state_box {
+  width: 45%;
+}
+
+.born_box:hover,
+.born_box label:hover,
+.born_box input:hover {
+  font-weight: 700;
+}
+
+.cpf_box:hover,
+.cpf_box label:hover,
+.cpf_box input:hover {
+  font-weight: 700;
+}
+
+.city_box:hover,
+.city_box label:hover,
+.city_box input:hover {
+  font-weight: 700;
+}
+
+.state_box:hover,
+.state_box label:hover,
+.state_box input:hover {
+  font-weight: 700;
+}
+
+.profissionalInfo_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.graduation_box:hover,
+.graduation_box label:hover,
+.graduation_box input:hover {
+  font-weight: 700;
+}
+
+.college_box:hover,
+.college_box label:hover,
+.college_box input:hover {
+  font-weight: 700;
+}
+
+.specialty_box:hover,
+.specialty_box label:hover,
+.specialty_box input:hover {
+  font-weight: 700;
+}
+
+.pass_box:hover,
+.pass_box label:hover,
+.pass_box input:hover {
+  font-weight: 700;
+}
+
+.forget_box {
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.forget_box:hover {
+  font-weight: 700;
+}
+
+.register_box {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  text-align: center;
+}
+
+article p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #ffff;
+  border: 2px solid transparent;
+  color: #1f60c2;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-family: "KoHo", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #ffff;
+  background-color: #1f60c2;
+  color: #ffff;
+  transition: 0.3s;
+}
