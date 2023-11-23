@@ -71,9 +71,6 @@ div .back_box {
   margin-left: 10%;
 }
 
-.back_box button {
-}
-
 .back_box img {
   max-width: 40px;
   max-height: 20px;
@@ -203,6 +200,7 @@ div .back_box {
 .register_box {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .typeOfUser_box {

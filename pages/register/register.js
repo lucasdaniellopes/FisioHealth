@@ -1,9 +1,11 @@
 function showFields(){
   document.querySelector(".typeOfUser_box").addEventListener("click", (event)=>{
-    
-    document.querySelector(".profissionalInfo_box").classList.toggle("hidden")
-    console.log(event.target.classList)
+    if (event.target.value != undefined && event.target.value === "user"){
+      document.querySelector(".profissionalInfo_box").classList.add("hidden")
+    }
+    else{
+      document.querySelector(".profissionalInfo_box").classList.remove("hidden")
+    }
   })
 }
-
 showFields()
