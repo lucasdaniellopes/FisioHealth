@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="/pages/homepage/homepage.css" />
     <link rel="stylesheet" href="/reset.css" />
+    <script defer src="/pages/homepage/homepage.js"></script>
     <title>FisioHealth</title>
   </head>
   <body>
@@ -19,7 +20,11 @@
       <nav class="container">
         <ul>
           <li class="container_arrow">
-            <img src="/assets/Design_sem_nome-removebg-preview.png" alt="" />
+            <a href="/index.html"
+              ><img
+                src="/assets/Design_sem_nome-removebg-preview.png"
+                alt="Botão voltar"
+            /></a>
           </li>
           <li class="container_logo">
             <img
@@ -27,16 +32,63 @@
               alt="Logo"
             />
           </li>
-          <li>
+          <li class="dropdown">
             <div>
-              <button>Logout</button>
-              <button>Ajuda</button>
+              <img src="/assets/apps-svgrepo-com.svg" alt="" />
             </div>
+            <ul class="submenu">
+              <li>
+                <button><a href="/index.html">Logout</a></button>
+              </li>
+              <li>
+                <button><a href=""></a>Ajuda</button>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main></main>
+    <main class="container">
+      <section class="welcome">
+        <h1>Bem vindo ao FisioHealth</h1>
+        <p>Seu Corpo, Seu Treino, Seu Sucesso!</p>
+      </section>
+
+      <section class="content">
+        <div class="content_carrossel_container">
+          <div class="content_carrossel_images">
+            <img
+              src="/assets/pexels-valeria-ushakova-3094230.jpg"
+              alt="Banner pessoa fazendo alongamento"
+            />
+            <img src="/assets/pexels-andrea-piacquadio-3771071.jpg" alt="" />
+            <img src="/assets/pexels-cliff-booth-4056723.jpg" alt="" />
+          </div>
+        </div>
+        <div class="content_main">
+          <div class="content_main_text">
+            <article>
+              <p>
+                Monte seu Plano de exercicios personalizado de acordo com as sua
+                necessidades, marque as opções que estão de acordo com o seu
+                problema atual.
+              </p>
+              <p>
+                Receba um plano de video aulas para a pratica de exercicios da
+                forma mais seguro possivel e alinhada com o seu objetivo.
+              </p>
+              <p>
+                Disponibilizamos Fisioterapeutas para tirar suas duvidas a
+                respeito das aulas abordadas.
+              </p>
+            </article>
+            <div class="content_main_createBtn">
+              <button><a href="">Crie seu plano personalizado</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
