@@ -1,33 +1,29 @@
+/* Estilos para o contêiner principal, ajustando a largura e centralizando */
 .container {
   width: 90%;
   margin: 0 auto;
 }
 
+/* Estilos para imagens, garantindo que se ajustem dentro de seus contêineres */
 img {
   object-fit: contain;
   width: 100%;
 }
 
+/* Estilos para o cabeçalho, como cor de fundo e sombra */
 header {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* Estilos para a lista de navegação, alinhando itens e ajustando espaçamento */
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* nav button {
-  text-decoration: none;
-  height: 40px;
-  border: transparent;
-  background-color: #1f60c2;
-  color: #fff;
-  border-radius: 8px;
-} */
-
+/* Estilos para os botões de navegação */
 nav button {
   background-color: #ffff;
   border: 2px solid transparent;
@@ -41,16 +37,19 @@ nav button {
   transition: all 0.3s ease-in-out;
 }
 
+/* Efeito de destaque no hover para os botões de navegação */
 nav button:hover {
   border-color: #1f60c2;
   transform: scale(1.1);
 }
 
+/* Estilos para a área de dropdown */
 .dropdown div {
   max-width: 60px;
   max-height: 60px;
 }
 
+/* Estilos para o submenu do dropdown, como transições e sombras */
 .dropdown .submenu {
   visibility: hidden;
   display: flex;
@@ -65,10 +64,12 @@ nav button:hover {
   border-radius: 8px;
 }
 
+/* Garante que os itens do submenu fiquem em uma coluna */
 .dropdown .submenu li {
   float: none;
 }
 
+/* Torna o submenu visível e animado no hover */
 .dropdown:hover .submenu {
   visibility: visible;
   display: block;
@@ -76,11 +77,13 @@ nav button:hover {
   transform: translateY(0);
 }
 
+/* Estilos para o logotipo, limitando as dimensões */
 .container_logo {
   max-width: 80px;
   max-height: 110px;
 }
 
+/* Estilos para a seta de navegação, adicionando efeito de destaque no hover */
 .container_arrow {
   border: 2px solid transparent;
   border-radius: 8px;
@@ -91,79 +94,6 @@ nav button:hover {
 }
 
 .container_arrow:hover {
-  border-color: #1f60c2;
-  transform: scale(1.1);
-}
-
-.question {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
-.question h2 {
-  margin-top: 50px;
-  font-size: 30px;
-  font-weight: 500;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-}
-
-.form {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form_div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  height: 40px;
-  padding: 0 5px;
-  background-color: #1f60c2;
-  border-radius: 50px;
-  border: 2px solid transparent;
-  color: #ffff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.form_div:hover {
-  background-color: #ffff;
-  color: #1f60c2;
-  border-color: #1f60c2;
-}
-
-.goBtn_div {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.goBtn {
-  width: 20%;
-  height: 40px;
-  font-size: 17px;
-  background-color: #1f60c2;
-  border-radius: 50px;
-  border: 2px solid transparent;
-  color: #ffff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.goBtn:hover {
-  background-color: #ffff;
-  color: #1f60c2;
   border-color: #1f60c2;
   transform: scale(1.1);
 }

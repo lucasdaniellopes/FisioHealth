@@ -1,8 +1,10 @@
+/* Estilos gerais do corpo da página */
 body {
   font-family: "KoHo", sans-serif;
   background: linear-gradient(to right, #ffff 40%, #1f60c2 10px, #1f60c2 70%);
 }
 
+/* Estilos para o container principal */
 .container {
   width: 90vw;
   height: 100vh;
@@ -11,6 +13,7 @@ body {
   justify-content: space-between;
 }
 
+/* Estilos para a seção de boas-vindas */
 .container_welcome {
   width: 30%;
   display: flex;
@@ -20,10 +23,13 @@ body {
   margin-bottom: 10%;
   gap: 30px;
 }
+
+/* Estilos específicos para o título na seção de boas-vindas */
 .container_welcome h2 {
   font-size: 50px;
 }
 
+/* Estilos para a seção de login */
 .container_login {
   width: 70%;
   margin-left: 10%;
@@ -35,16 +41,19 @@ body {
   color: #ffff;
 }
 
+/* Estilos específicos para o título na seção de login */
 .container_login h2 {
   font-size: 50px;
 }
 
+/* Estilos para o formulário de login */
 form {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
+/* Estilos para o conjunto de campos no formulário */
 fieldset {
   width: 70%;
   display: flex;
@@ -52,24 +61,30 @@ fieldset {
   gap: 20px;
 }
 
+/* Estilos gerais para campos de entrada */
 input {
   outline-color: #1f60c2;
   border: 1px solid transparent;
   height: 40px;
   border-radius: 8px;
 }
+
+/* Estilos específicos para o campo de e-mail */
 .mail_box {
   display: flex;
   flex-direction: column;
   gap: 10px;
   transition: 0.2s;
 }
+
+/* Estilos para realçar o campo de e-mail ao passar o mouse */
 .mail_box:hover,
 .mail_box label:hover,
 .mail_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos específicos para o campo de senha */
 .pass_box {
   display: flex;
   flex-direction: column;
@@ -77,35 +92,42 @@ input {
   transition: 0.2s;
 }
 
+/* Estilos para realçar o campo de senha ao passar o mouse */
 .pass_box:hover,
 .pass_box label:hover,
 .pass_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para o link "Esqueceu a senha?" */
 .forget_box {
   font-weight: 400;
   transition: 0.2s;
 }
 
+/* Estilos para realçar o link "Esqueceu a senha?" ao passar o mouse */
 .forget_box:hover {
   font-weight: 700;
 }
 
+/* Estilos para o botão de entrar */
 .enter_box {
   display: flex;
   justify-content: center;
 }
 
+/* Estilos para os artigos, que contêm texto centralizado */
 article {
   text-align: center;
 }
 
+/* Estilos específicos para o parágrafo dentro do artigo */
 article p {
   margin-top: 20px;
   font-size: 20px;
 }
 
+/* Estilos para o botão geral */
 button {
   background-color: #ffff;
   border: 2px solid transparent;
@@ -118,6 +140,7 @@ button {
   cursor: pointer;
 }
 
+/* Estilos para realçar o botão ao passar o mouse */
 button:hover {
   border-color: #ffff;
   background-color: #1f60c2;

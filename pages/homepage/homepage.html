@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Definição da codificação e escala inicial -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ícone da página e pré-conexão para fontes do Google -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Importação da fonte KoHo do Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Importação dos estilos da página -->
     <link rel="stylesheet" href="./pages/homepage/homepage.css" />
     <link rel="stylesheet" href="./reset.css" />
+
+    <!-- Importação do script JavaScript com defer para execução assíncrona após o carregamento do HTML -->
     <script defer src="./pages/homepage/homepage.js"></script>
+
+    <!-- Título da página -->
     <title>FisioHealth</title>
   </head>
   <body>
+    <!-- Cabeçalho da página -->
     <header>
+      <!-- Navegação no container -->
       <nav class="container">
+        <!-- Lista não ordenada -->
         <ul>
+          <!-- Item de lista para o botão de voltar -->
           <li class="container_arrow">
             <a href="./index.html"
               ><img
@@ -26,16 +41,22 @@
                 alt="Botão voltar"
             /></a>
           </li>
+
+          <!-- Item de lista para o logo -->
           <li class="container_logo">
             <img
               src="./assets/Logo_FisioHelth-removebg-preview 1.svg"
               alt="Logo"
             />
           </li>
+
+          <!-- Item de lista para o dropdown com ícone -->
           <li class="dropdown">
             <div>
               <img src="./assets/apps-svgrepo-com.svg" alt="" />
             </div>
+
+            <!-- Submenu com opções de logout e ajuda -->
             <ul class="submenu">
               <li>
                 <button><a href="./index.html">Logout</a></button>
@@ -49,14 +70,19 @@
       </nav>
     </header>
 
+    <!-- Corpo principal da página -->
     <main class="container">
+      <!-- Seção de boas-vindas -->
       <section class="welcome">
         <h1>Bem vindo ao FisioHealth</h1>
         <p>Seu Corpo, Seu Treino, Seu Sucesso!</p>
       </section>
 
+      <!-- Seção de conteúdo principal -->
       <section class="content">
+        <!-- Container para o carrossel de imagens -->
         <div class="content_carrossel_container">
+          <!-- Carrossel de imagens -->
           <div class="content_carrossel_images">
             <img
               src="/assets/pexels-valeria-ushakova-3094230.jpg"
@@ -66,8 +92,12 @@
             <img src="/assets/pexels-cliff-booth-4056723.jpg" alt="" />
           </div>
         </div>
+
+        <!-- Container para o conteúdo principal -->
         <div class="content_main">
+          <!-- Container para o texto principal -->
           <div class="content_main_text">
+            <!-- Artigo com informações sobre o serviço -->
             <article>
               <p>
                 Monte seu Plano de exercicios personalizado de acordo com as sua
@@ -83,6 +113,8 @@
                 respeito das aulas abordadas.
               </p>
             </article>
+
+            <!-- Botão para criar um plano personalizado -->
             <div class="content_main_createBtn">
               <button>
                 <a href="/pages/chooseRegion/chooseRegion.html"

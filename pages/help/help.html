@@ -16,8 +16,10 @@
   </head>
   <body>
     <header>
+      <!-- Navegação -->
       <nav class="container">
         <ul>
+          <!-- Botão Voltar -->
           <li class="container_arrow">
             <a href="./pages/homepage/homepage.html"
               ><img
@@ -25,12 +27,14 @@
                 alt="Botão voltar"
             /></a>
           </li>
+          <!-- Logo -->
           <li class="container_logo">
             <img
               src="./assets/Logo_FisioHelth-removebg-preview 1.svg"
               alt="Logo"
             />
           </li>
+          <!-- Dropdown com opções de Logout e Ajuda -->
           <li class="dropdown">
             <div>
               <img src="./assets/apps-svgrepo-com.svg" alt="" />
@@ -40,7 +44,8 @@
                 <button><a href="./index.html">Logout</a></button>
               </li>
               <li>
-                <button><a href=""></a>Ajuda</button>
+                <!-- Link vazio corrigido -->
+                <button><a href="#">Ajuda</a></button>
               </li>
             </ul>
           </li>
@@ -49,19 +54,24 @@
     </header>
 
     <main class="container">
+      <!-- Seção de Conteúdo -->
       <section class="content">
+        <!-- Título da Página -->
         <section class="title">
           <h2>Está tendo problemas? Entre em contato com o suporte</h2>
         </section>
+        <!-- Formulário de Contato -->
         <section class="description">
           <form>
-            <label for="question"></label>
+            <label for="question">Descreva seu problema:</label>
+            <!-- Campo de Texto para a Pergunta -->
             <textarea
               name="question"
               id="question"
               cols="30"
               rows="10"
             ></textarea>
+            <!-- Botão de Envio do Formulário -->
             <div class="sendBtn">
               <button>Enviar</button>
             </div>

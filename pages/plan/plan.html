@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Configuração da página -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Importação da fonte KoHo do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./pages/plan/plan.css" />
-    <link rel="stylesheet" href="./reset.css" />
+
+    <!-- Importação de folhas de estilo -->
+    <link rel="stylesheet" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="reset.css" />
+
+    <!-- Título da página -->
     <title>FisioHealth</title>
   </head>
+
   <body>
+    <!-- Cabeçalho da página -->
     <header>
+      <!-- Barra de navegação dentro de uma div com a classe "container" -->
       <nav class="container">
         <ul>
+          <!-- Ícone e link para a página principal -->
           <li class="container_arrow">
-            <a href="./pages/homepage/homepage.html"
-              ><img
+            <a href="./pages/homepage/homepage.html">
+              <img
                 src="./assets/Design_sem_nome-removebg-preview.png"
                 alt="Botão voltar"
-            /></a>
+              />
+            </a>
           </li>
+          <!-- Logo da FisioHealth -->
           <li class="container_logo">
             <img
               src="./assets/Logo_FisioHelth-removebg-preview 1.svg"
               alt="Logo"
             />
           </li>
+          <!-- Dropdown com ícone de aplicativos e submenu -->
           <li class="dropdown">
             <div>
               <img src="./assets/apps-svgrepo-com.svg" alt="" />
             </div>
             <ul class="submenu">
+              <!-- Botão de logout -->
               <li>
                 <button><a href="./index.html">Logout</a></button>
               </li>
+              <!-- Botão de ajuda -->
               <li>
                 <button><a href="./pages/help/help.html">Ajuda</a></button>
               </li>
@@ -47,8 +63,12 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Seção principal -->
     <main>
+      <!-- Seção de título -->
       <section class="tittle">
+        <!-- Título e descrição -->
         <h2>Plano de Alongamentos e Exercício!</h2>
         <p>
           Siga os exercicios exatamente como é explicado no video para evitar
@@ -57,18 +77,21 @@
         </p>
       </section>
 
+      <!-- Seção de conteúdo -->
       <section class="content">
+        <!-- Container de links com várias seções de links -->
         <div class="links_container">
+          <!-- Link para o primeiro exercício de alongamento -->
           <div class="link">
             <button>
               <div class="thumb">
                 <img id="back" src="/assets/Autoria web coxa 2.svg" alt="" />
                 <img id="play" src="/assets/🦆 icon _play circle_.svg" alt="" />
               </div>
-
               <a href="">Alongamento dos Músculos da coxa</a>
             </button>
           </div>
+          <!-- Link para o segundo exercício de alongamento -->
           <div class="link">
             <button>
               <div class="thumb">
@@ -78,6 +101,7 @@
               <a href="">Alongamento de Panturrilha</a>
             </button>
           </div>
+          <!-- Link para o terceiro exercício de mobilidade articular -->
           <div class="link">
             <button>
               <div class="thumb">
@@ -87,13 +111,13 @@
               <a href="">Exercícios de Mobilidade Articular</a>
             </button>
           </div>
+          <!-- Link para o quarto exercício de fortalecimento muscular -->
           <div class="link">
             <button>
               <div class="thumb">
                 <img id="back" src="/assets/image 3.svg" alt="" />
                 <img id="play" src="/assets/🦆 icon _play circle_.svg" alt="" />
               </div>
-
               <a href="">Exercícios de Fortalecimento Muscular</a>
             </button>
           </div>

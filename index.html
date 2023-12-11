@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Configuração da codificação de caracteres e configuração de viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ícone da guia do navegador -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Pré-conexão com o Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Importação da fonte KoHo do Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.css"" />
+
+    <!-- Importação dos estilos do CSS -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Importação do reset CSS -->
     <link rel="stylesheet" href="./reset.css" />
 
+    <!-- Título da página -->
     <title>FisioHealth</title>
   </head>
   <body>
+    <!-- Início da seção principal -->
     <main>
+      <!-- Container principal -->
       <div class="container">
+        <!-- Seção de boas-vindas -->
         <section class="container_welcome">
+          <!-- Logotipo -->
           <figure>
             <img
               src="./assets/Logo_FisioHelth-removebg-preview 1.svg"
@@ -26,6 +42,7 @@
             />
           </figure>
 
+          <!-- Texto de boas-vindas -->
           <article>
             <h2>Bem vindo ao FisioHealth</h2>
             <p>
@@ -34,27 +51,39 @@
             </p>
           </article>
         </section>
+
+        <!-- Seção de login -->
         <section class="container_login">
+          <!-- Título da seção de login -->
           <article>
             <h2>Seja Bem Vindo!</h2>
           </article>
+
+          <!-- Formulário de login -->
           <form>
+            <!-- Conjunto de campos: E-mail e Senha -->
             <fieldset>
+              <!-- Campo de e-mail -->
               <div class="mail_box">
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" />
               </div>
 
+              <!-- Campo de senha -->
               <div class="pass_box">
                 <label for="pass">Senha</label>
                 <input type="password" name="pass" id="pass" />
               </div>
+
+              <!-- Link para a página de registro -->
               <div class="forget_box">
                 <a href="./pages/register/register.html">Cadastre-se aqui!</a>
               </div>
 
+              <!-- Botão de envio do formulário -->
               <div class="enter_box">
                 <button type="submit">
+                  <!-- Link para a página principal após o login -->
                   <a href="./pages/homepage/homepage.html">Entrar</a>
                 </button>
               </div>
@@ -63,5 +92,6 @@
         </section>
       </div>
     </main>
+    <!-- Fim da seção principal -->
   </body>
 </html>

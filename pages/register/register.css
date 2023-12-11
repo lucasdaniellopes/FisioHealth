@@ -1,11 +1,15 @@
+/* Oculta elementos com a classe 'hidden' */
 body main .hidden {
   display: none;
 }
+
+/* Estilos gerais do corpo da página */
 body {
   font-family: "KoHo", sans-serif;
   background: linear-gradient(to right, #ffff 40%, #1f60c2 10px, #1f60c2 70%);
 }
 
+/* Estilos para o container principal */
 .container {
   width: 90vw;
   height: 100vh;
@@ -14,6 +18,7 @@ body {
   justify-content: space-between;
 }
 
+/* Estilos para a seção de boas-vindas */
 .container_welcome {
   width: 30%;
   display: flex;
@@ -23,10 +28,13 @@ body {
   margin-bottom: 10%;
   gap: 30px;
 }
+
+/* Estilos específicos para o título na seção de boas-vindas */
 .container_welcome h2 {
   font-size: 50px;
 }
 
+/* Estilos para a seção de registro */
 .container_register {
   width: 70%;
   margin-left: 10%;
@@ -38,16 +46,19 @@ body {
   color: #ffff;
 }
 
+/* Estilos específicos para o título na seção de registro */
 .container_register h2 {
   font-size: 50px;
 }
 
+/* Estilos para o formulário de registro */
 form {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
+/* Estilos para o conjunto de campos no formulário */
 fieldset {
   width: 70%;
   display: flex;
@@ -55,6 +66,7 @@ fieldset {
   gap: 20px;
 }
 
+/* Estilos gerais para campos de entrada */
 input {
   font-family: "KoHo", sans-serif;
   padding-left: 10px;
@@ -64,6 +76,7 @@ input {
   border-radius: 8px;
 }
 
+/* Estilos para a caixa de voltar */
 div .back_box {
   display: flex;
   justify-content: flex-start;
@@ -71,18 +84,17 @@ div .back_box {
   margin-left: 10%;
 }
 
+/* Estilos para a imagem de voltar */
 .back_box img {
   max-width: 40px;
   max-height: 20px;
   height: auto;
   width: auto;
   color: #ffff;
-}
-
-.back_box img {
   object-fit: cover;
 }
 
+/* Estilos para a caixa de data de nascimento, CPF, cidade e estado */
 .born_cpf_city_state_box select {
   font-family: "KoHo", sans-serif;
   padding-left: 10px;
@@ -100,6 +112,7 @@ div .back_box {
   gap: 10px;
 }
 
+/* Estilos gerais para caixas de campos específicos */
 .name_box,
 .mail_box,
 .pass_box,
@@ -116,18 +129,21 @@ div .back_box {
   transition: 0.2s;
 }
 
+/* Estilos para realçar a caixa de nome ao passar o mouse */
 .name_box:hover,
 .name_box label:hover,
 .namel_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de e-mail ao passar o mouse */
 .mail_box:hover,
 .mail_box label:hover,
 .mail_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para caixas de data de nascimento, CPF, cidade e estado */
 .born_box,
 .cpf_box,
 .city_box,
@@ -135,93 +151,111 @@ div .back_box {
   width: 45%;
 }
 
+/* Estilos para realçar a caixa de data de nascimento ao passar o mouse */
 .born_box:hover,
 .born_box label:hover,
 .born_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de CPF ao passar o mouse */
 .cpf_box:hover,
 .cpf_box label:hover,
 .cpf_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de cidade ao passar o mouse */
 .city_box:hover,
 .city_box label:hover,
 .city_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de estado ao passar o mouse */
 .state_box:hover,
 .state_box label:hover,
 .state_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para caixa de informações específicas para profissionais */
 .profissionalInfo_box {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
+/* Estilos para realçar a caixa de graduação ao passar o mouse */
 .graduation_box:hover,
 .graduation_box label:hover,
 .graduation_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de instituição de formação ao passar o mouse */
 .college_box:hover,
 .college_box label:hover,
 .college_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de especialidade ao passar o mouse */
 .specialty_box:hover,
 .specialty_box label:hover,
 .specialty_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para realçar a caixa de senha ao passar o mouse */
 .pass_box:hover,
 .pass_box label:hover,
 .pass_box input:hover {
   font-weight: 700;
 }
 
+/* Estilos para a caixa de "esqueceu a senha" */
 .forget_box {
   font-weight: 400;
   transition: 0.2s;
 }
 
+/* Estilos para realçar a caixa de "esqueceu a senha" ao passar o mouse */
 .forget_box:hover {
   font-weight: 700;
 }
 
+/* Estilos para a caixa de registro */
 .register_box {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
+/* Estilos para a caixa de tipo de usuário */
 .typeOfUser_box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Estilos para rótulos de tipo de usuário */
 .typeOfUser_box label {
   margin-right: 20px;
 }
 
+/* Estilos gerais para artigos */
 article {
   text-align: center;
 }
 
+/* Estilos para parágrafos dentro de artigos */
 article p {
   margin-top: 20px;
   font-size: 20px;
 }
 
+/* Estilos para botões */
 button {
   background-color: #ffff;
   border: 2px solid transparent;
@@ -234,6 +268,7 @@ button {
   cursor: pointer;
 }
 
+/* Estilos para realçar o botão ao passar o mouse */
 button:hover {
   border-color: #ffff;
   background-color: #1f60c2;

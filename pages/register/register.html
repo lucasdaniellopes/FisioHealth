@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Metadados -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ícone da guia do navegador -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Pré-conexão com o Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Importação da fonte KoHo do Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./pages/register/register.css"" />
+
+    <!-- Importação dos estilos do registro e reset CSS -->
+    <link rel="stylesheet" href="./pages/register/register.css" />
     <link rel="stylesheet" href="./reset.css" />
+
+    <!-- Importação do script JavaScript de registro -->
     <script defer src="./pages/register/register.js"></script>
+
+    <!-- Título da página -->
     <title>FisioHealth</title>
   </head>
   <body>
+    <!-- Início da seção principal -->
     <main>
+      <!-- Container principal -->
       <div class="container">
+        <!-- Seção de boas-vindas -->
         <section class="container_welcome">
+          <!-- Logotipo -->
           <figure>
             <img
               src="./assets/Logo_FisioHelth-removebg-preview 1.svg"
@@ -26,6 +43,7 @@
             />
           </figure>
 
+          <!-- Texto de boas-vindas -->
           <article>
             <h2>Bem vindo ao FisioHealth</h2>
             <p>
@@ -34,21 +52,30 @@
             </p>
           </article>
         </section>
+
+        <!-- Seção de registro -->
         <section class="container_register">
+          <!-- Botão de voltar -->
           <div class="back_box">
             <button>
-              <a href="./index.html"
-                ><img
+              <a href="./index.html">
+                <img
                   src="./assets/Design_sem_nome-removebg-preview.png"
                   alt=""
-              /></a>
+                />
+              </a>
             </button>
           </div>
+
+          <!-- Título da seção de registro -->
           <article>
             <h2>Seja Bem Vindo!</h2>
           </article>
+
+          <!-- Formulário de registro -->
           <form>
             <fieldset>
+              <!-- Tipo de usuário: Usuário ou Profissional -->
               <div class="typeOfUser_box">
                 <input
                   type="radio"
@@ -58,7 +85,6 @@
                   checked
                 />
                 <label for="user">Usuário</label>
-
                 <input
                   type="radio"
                   name="typeOfUser"
@@ -68,6 +94,7 @@
                 <label for="professional">Profissional</label>
               </div>
 
+              <!-- Campos de nome e e-mail -->
               <div class="name_box">
                 <label for="name">Nome</label>
                 <input
@@ -88,6 +115,7 @@
                 />
               </div>
 
+              <!-- Campos de data de nascimento, CPF, cidade e estado -->
               <div class="born_cpf_city_state_box">
                 <div class="born_box">
                   <label for="born">Data de Nascimento</label>
@@ -115,8 +143,9 @@
                 </div>
 
                 <div class="state_box">
-                  <label for="states">Estado: </label>
+                  <label for="states">Estado:</label>
                   <select name="states" id="states">
+                    <!-- Opções para os estados -->
                     <option value="Acre">AC</option>
                     <option value="Alagoas">Al</option>
                     <option value="Amapa">AP</option>
@@ -145,6 +174,8 @@
                   </select>
                 </div>
               </div>
+
+              <!-- Campos específicos para profissionais -->
               <div class="profissionalInfo_box hidden">
                 <div class="graduation_box">
                   <label for="graduation">Qual a sua graduação?</label>
@@ -181,11 +212,13 @@
                 </div>
               </div>
 
+              <!-- Campo de senha -->
               <div class="pass_box">
                 <label for="pass">Senha</label>
                 <input type="password" name="pass" id="pass" />
               </div>
 
+              <!-- Botão de registro -->
               <div class="register_box">
                 <button type="submit">
                   <a href="./index.html">Cadastrar</a>
@@ -196,5 +229,6 @@
         </section>
       </div>
     </main>
+    <!-- Fim da seção principal -->
   </body>
 </html>

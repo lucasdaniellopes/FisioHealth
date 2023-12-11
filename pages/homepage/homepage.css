@@ -1,33 +1,33 @@
+/* Definições gerais */
+
+/* Container principal com largura de 90% e centralizado */
 .container {
   width: 90%;
   margin: 0 auto;
 }
 
+/* Imagens com ajuste de tamanho e largura de 100% */
 img {
   object-fit: contain;
   width: 100%;
 }
 
+/* Cabeçalho com fundo branco e sombra */
 header {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* Navegação */
+
+/* Lista não ordenada flexível com espaçamento entre itens e alinhamento central */
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* nav button {
-  text-decoration: none;
-  height: 40px;
-  border: transparent;
-  background-color: #1f60c2;
-  color: #fff;
-  border-radius: 8px;
-} */
-
+/* Botões de navegação com efeito de transição */
 nav button {
   background-color: #ffff;
   border: 2px solid transparent;
@@ -46,11 +46,15 @@ nav button:hover {
   transform: scale(1.1);
 }
 
+/* Dropdown */
+
+/* Ícone do dropdown com tamanho máximo definido */
 .dropdown div {
   max-width: 60px;
   max-height: 60px;
 }
 
+/* Submenu do dropdown inicialmente invisível e com efeito de transição */
 .dropdown .submenu {
   visibility: hidden;
   display: flex;
@@ -76,11 +80,15 @@ nav button:hover {
   transform: translateY(0);
 }
 
+/* Elementos específicos do layout */
+
+/* Logo com tamanho máximo definido */
 .container_logo {
   max-width: 80px;
   max-height: 110px;
 }
 
+/* Botão de voltar com efeito de transição e borda */
 .container_arrow {
   border: 2px solid transparent;
   border-radius: 8px;
@@ -95,6 +103,8 @@ nav button:hover {
   transform: scale(1.1);
 }
 
+/* Seção de boas-vindas */
+
 .welcome {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -108,6 +118,8 @@ nav button:hover {
   margin-bottom: 10px;
 }
 
+/* Seção de conteúdo principal */
+
 .content {
   display: flex;
   align-items: flex-start;
@@ -115,15 +127,21 @@ nav button:hover {
   gap: 50px;
 }
 
+/* Container principal da seção de conteúdo principal */
+
 .content_main {
   height: 400px;
   display: flex;
   flex-direction: column;
 }
 
+/* Imagens na seção de conteúdo principal com largura de 100% */
+
 .content img {
   width: 100%;
 }
+
+/* Container do carrossel de imagens com borda arredondada e sombra */
 
 .content_carrossel_container {
   overflow: hidden;
@@ -133,16 +151,21 @@ nav button:hover {
   box-shadow: rgba(31, 96, 194, 1) 0px 25px 50px -12px;
 }
 
+/* Carrossel de imagens com efeito de transição */
+
 .content_carrossel_images {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
+/* Imagens no carrossel com ajuste de tamanho e cobertura */
+
 .content_carrossel_images img {
   width: 100%;
-
   object-fit: cover;
 }
+
+/* Container do texto principal com espaçamento, sombra e borda arredondada */
 
 .content_main_text {
   height: 100%;
@@ -155,11 +178,15 @@ nav button:hover {
   box-shadow: rgba(31, 96, 194, 1) 0px 25px 50px -12px;
 }
 
+/* Parágrafos no texto principal com tamanho de fonte, largura máxima e margem superior */
+
 .content_main_text p {
   font-size: 20px;
   width: 600px;
   margin-top: 25px;
 }
+
+/* Container do botão de criação com espaçamento, alinhamento, efeito de sombra e borda arredondada */
 
 .content_main_createBtn {
   display: flex;
@@ -168,6 +195,8 @@ nav button:hover {
   justify-content: center;
   gap: 5px;
 }
+
+/* Botão de criação com efeito de transição, borda, cor de fundo, cor do texto e sombra */
 
 .content_main_createBtn button {
   display: flex;
@@ -178,13 +207,14 @@ nav button:hover {
   border-radius: 4px;
   border: 2px solid transparent;
   color: #ffff;
-
   padding: 20px 60px;
   font-family: "KoHo", sans-serif;
   font-weight: 700;
   font-size: 20px;
   cursor: pointer;
 }
+
+/* Efeito de transição e alteração de cor ao passar o mouse sobre o botão de criação */
 
 .content_main_createBtn button:hover {
   border-color: #1f60c2;
